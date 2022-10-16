@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
+
+
+
 .container{
- background-color: blue;
   height: 700px;
   margin: auto;
   max-width: 1100px;
@@ -47,6 +49,7 @@ color:  hsl(219, 9%, 45%);
 border-bottom: 3px solid;
 padding-bottom: 60px ;
 border-bottom:3px solid  hsl(26, 100%, 55%);
+color: hsl(0, 0%, 0%);
 }
 
 
@@ -84,3 +87,90 @@ border-bottom:3px solid  hsl(26, 100%, 55%);
  cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  margin: 0 0 80px 80px;
+}
+
+
+
+
+
+ .big-pic{
+  width: 380px;
+  border-radius: 5px;
+}
+
+.pic-content .slide-show{
+  display: flex;
+}
+
+
+.pic-content .slide-show img{
+  width: 80px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.text-content{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+.text-content h4 {
+ color:   hsl(26, 100%, 55%);
+ margin-bottom: 15px;
+}
+
+
+.text-content p {
+  margin: 40px 0px 20px 0px;
+}
+
+.text-content .discount {
+ margin:  10px 0px 20px 0px;
+}
+
+.text-content input {
+  padding: 10px 20px;
+  background-color:hsl(223, 64%, 98%);
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+
+.text-content button {
+  width: 200px;
+  padding: 10px 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(26, 100%, 55%) ;
+  margin-left: 20px;
+  color: white;
+}
+
+
+.text-content button img {
+  width: 15px;
+  margin-right: 10px;
+}
