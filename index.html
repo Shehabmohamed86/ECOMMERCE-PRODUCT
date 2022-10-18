@@ -9,6 +9,16 @@
 </head>
 <body>
   <div class="container">
+
+    <div class="text-cart">
+      <div class="border-div">Cart</div>
+      <div class="empty"></div>
+    </div>
+    
+    <div class="hide-imges">
+    <img src="images/icon-close.svg" alt="">
+    </div>
+
    <div class="nav-flex">
     <div class="nav-bar">
       <ul>
@@ -23,6 +33,7 @@
     <div class=" shopping-cart">
       <img class="cart" src="images/icon-cart.svg" alt="">
       <img class="avatar" src="images/image-avatar.png" alt="">
+     
     </div>
    </div>
    <div class="content">
@@ -43,8 +54,12 @@
       <div class="price">$125.00 <span>50%</span></div>
       <div class="discount">$250.00</div>
       <div>
-        <input type="number" placeholder="0">
-        <button><img src="images/icon-cart.svg" alt="">Add to cart</button>
+        <div class="btn-field">
+          <button>0</button>
+          <img class="minus" src="images/icon-minus.svg" alt="">
+          <img class="plus" src="images/icon-plus.svg" alt="">
+        </div>
+        <button class="btn-cart"><img src="images/icon-cart.svg" alt="">Add to cart</button>
        
       </div>
    </div>
