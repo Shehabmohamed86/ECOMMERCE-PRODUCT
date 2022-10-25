@@ -37,8 +37,9 @@ img {
   z-index: 4;
   background-color:hsl(223, 64%, 98%);
   border-radius: 10px;
-  
+  display: none;
 }
+
 
 
 .text-cart .border-div{
@@ -50,6 +51,49 @@ img {
 }
 
 
+.text-cart .checkout {
+  background-color: hsl(26, 100%, 55%) ;
+  color: white;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.text-cart .empty {
+  margin-top: 10px;
+  margin-left: 70px;
+  color: gray;
+  align-items: center;
+  line-height: 30px;
+  height: 60px;
+}
+
+.text-cart span {
+  color: black;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.text-cart .text-img {
+  width: 50px;
+  position: absolute;
+  left: 10px;
+  top: 40%;
+  border-radius: 5px;
+}
+
+.text-cart img {
+  position: absolute; 
+  right: 10px;
+  top: 45%;
+
+}
 
 
 
@@ -169,6 +213,21 @@ color: hsl(0, 0%, 0%);
   position: relative;
 }
 
+
+
+.shopping-cart .num {
+  background-color:hsl(26, 100%, 55%);
+  padding: 3px;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  left:10%;
+  color: white;
+  font-size: 10px;
+ 
+}
+
+
 .shopping-cart .cart{
   width: 20px;
   margin-right: 50px;
@@ -239,6 +298,13 @@ color: hsl(0, 0%, 0%);
   margin: 40px 0px 20px 0px;
 }
 
+
+
+
+.text-content .submit{
+  margin-top: 40px;
+}
+
 .text-content .discount {
  margin:  10px 0px 20px 0px;
 }
@@ -295,7 +361,27 @@ color: hsl(0, 0%, 0%);
   color: white;
   display: inline-block;
   cursor: pointer;
+
 }
+
+
+
+
+.text-content .price span {
+  margin-left: 20px;
+  background-color: hsl(26, 100%, 55%);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.text-content del {
+ color: gray;
+ margin-top: 10px;
+}
+
+
+
 
 
 
@@ -312,4 +398,14 @@ color: hsl(0, 0%, 0%);
 
 .active-img{
 display: block;
+}
+
+
+.active-cart{
+  display: block;
+}
+
+
+.active-num{
+  display: block;
 }

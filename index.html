@@ -9,19 +9,21 @@
 </head>
 <body>
   <div class="text-cart">
+    <img class="delete-value" src="images/icon-delete.svg" alt="">
     <div class="border-div">Cart</div>
     <div class="empty"></div>
+    <button class="checkout">checkout</button>
   </div>
   
   <div class="hide-imges">
     <img class="delete"src="images/icon-close.svg" alt="">
     <img src="images/icon-next.svg" alt="">
     <img src="images/icon-previous.svg" alt="">
-    <img class="first-img" src="images/image-product-1.jpg" alt="">
-    <img class="second-img" src="images/image-product-1-thumbnail.jpg" alt="">
-    <img class="third-img" src="images/image-product-2-thumbnail.jpg" alt="">
-    <img src="images/image-product-3-thumbnail.jpg" alt="">
-    <img src="images/image-product-4-thumbnail.jpg" alt="">
+    <img class="first-img" src="images/image-product-1.jpg" alt=""`${imgNum}`>
+    <img class="image" id="1" src="images/image-product-1-thumbnail.jpg" alt="">
+    <img class="image" id="2" src="images/image-product-2-thumbnail.jpg" alt="">
+    <img class="image" id="3" src="images/image-product-3-thumbnail.jpg" alt="">
+    <img class="image" id="4" src="images/image-product-4-thumbnail.jpg" alt="">
  
   </div>
 
@@ -39,6 +41,7 @@
       </ul>
     </div>
     <div class=" shopping-cart">
+      <div class="num"></div>
       <img class="cart" src="images/icon-cart.svg" alt="">
       <img class="avatar" src="images/image-avatar.png" alt="">
      
@@ -60,8 +63,8 @@
       <h1>Fall Limite <br>Sneakers</h1>
       <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer</p>
       <div class="price">$125.00 <span>50%</span></div>
-      <div class="discount">$250.00</div>
-      <div>
+      <del class="discount">$250.00</del>
+      <div class="submit">
         <div class="btn-field">
           <input class="btn-num" type="number" placeholder="0" min="0" max="9"  >
           <img class="minus" src="images/icon-minus.svg" alt="">
